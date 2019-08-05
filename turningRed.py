@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 from PIL import Image
 
-img = Image.open("Imagens/flower.jpg")
+img = Image.open("./flower.jpg")
 
 ##creating the matrix of the image
 img_mat = np.array(img)
